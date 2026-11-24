@@ -1,0 +1,41 @@
+{
+  "factors": {
+    "market": {
+      "estimate": 0.1747,
+      "se_nw": 0.1219,
+      "true": 0.06,
+      "truth_in_95ci": true
+    },
+    "size": {
+      "estimate": 0.0569,
+      "se_nw": 0.0637,
+      "true": 0.025,
+      "truth_in_95ci": true
+    },
+    "value": {
+      "estimate": 0.0007,
+      "se_nw": 0.0571,
+      "true": 0.03,
+      "truth_in_95ci": true
+    },
+    "momentum": {
+      "estimate": 0.1093,
+      "se_nw": 0.0783,
+      "true": 0.04,
+      "truth_in_95ci": true
+    },
+    "profitability": {
+      "estimate": 0.0211,
+      "se_nw": 0.0511,
+      "true": 0.03,
+      "truth_in_95ci": true
+    },
+    "investment": {
+      "estimate": 0.0462,
+      "se_nw": 0.0525,
+      "true": 0.02,
+      "truth_in_95ci": true
+    }
+  },
+  "note": "A single three-year world is deliberately noisy. The robustness study evaluates repeated-sample error and coverage rather than declaring success from one seed."
+}
